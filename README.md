@@ -32,6 +32,8 @@ Then, the person's scaled SAIs are retrieved and all averaged together to produc
 
 # Why is this program flawed?
 
+(Assuming you already read the disclaimer)
+
 As some subjects are more difficult than others, the students in those harder subjects will get better QCS results (since they are smarter). As a result, the average QCS mark for the subject would be very high. For example, students who do Mathematics C would generally be smarter and get higher results than those doing something like Mathematics A. This means Mathematics C's QCS average would be very high. This is often a misconception that some subjects like Maths C or English Extension give you bonus OP points. They do not, it's just the students doing those subjects are (on average) smarter and would get a better QCS result.
 
 My program does not take this into consideration, and generates every subject's QCS results the exact same based on their school's OP preformance from last year. This makes it stupidly bad when comparing different subjects as the values are esentually all the same for all subjects.
