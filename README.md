@@ -1,4 +1,4 @@
-# QCAA Year 12 OP Prediction in Python (written by Scott Howie)
+# QCAA Year 12 OP Prediction in Python (Scott Howie)
 
 Well, in an attempt to find out my OP before it's calculated I've made the building blocks to an OP estimation program. 
 
