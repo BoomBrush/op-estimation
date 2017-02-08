@@ -10,7 +10,7 @@ This program is very experimental and I made because I was bored. The actual OP 
 
 At the end of the year, your teachers will compare your work against everybody else in your cohort who is OP eligible. Although you might have grades like VHA or HA, they actually mean very little. You are instead given a Subject Achievement Indicator (SAI). The person whos work is the worst will get an SAI of 200. The person whos work is the best gets an SAI of 400. Everybody else is inbetween 200 - 400. It doesn't matter if the worst person got a SA3, they would still get an SAI of 200. This is done for every one of your OP subjects, so you get an SAI for each one of your subjects. YOU WILL NEED THIS SAI TO USE THE PROGRAM!
 
-The QCS test is split into 4 different tests. The result you get in your short response and written response are both out of 100, and the  multipul choice tests add to 100 questions. This gives you a max QCS score of 300. For each subject, an average SAI is calculated but also the standard deviation. The average and standard deviation of your subject's QCS results is also calculated. Then using Z scores, the SAIs are scaled onto the QCS results and the resulting values are referred to as scaled SAIs. It should be made clear that each subject is scaled to those students who are in that subject only. So my SAI for English will not be scaled with somebody elses from another subject or who is not OP eligible.
+The QCS test is split into 4 different tests. The result you get in your short response and written response are both out of 100, and the  multipul choice tests add to 100 questions. This gives you a max QCS score of 300. For each subject, an average SAI is calculated but also the standard deviation. The average and standard deviation of your subject's QCS results is also calculated. Then using Z scores, the SAIs are scaled onto the QCS results and the resulting values are referred to as scaled SAIs. It should be made clear that each subject is scaled to those students who are in that subject only. So my SAI for English will not be scaled with somebody elses from another subject or who is not OP eligible. These are scaled using a Gaussian distribution.
 
 So each student now has a scaled SAI for each OP subject. If a student is doing 6 OP subjects, the worst scaled SAI is dropped as only the best 5 are used. If a student is doing 5 OP subjects, those scaled SAIs are used. Those scaled SAIs are then averaged to produce an Overall Achievement Indicator (OAI).
 
@@ -27,3 +27,17 @@ First of all, there is no way to know students results as I don't have access to
 Using the fake QCS results, those SAIs are then scaled for each subject. However, the person using the program would enter their school and SAIs as well as their subjects. These would be inserted into the corrasponding subject groups and will be scaled with other fake SAI information. So for those subjects only, the average would be slightly different to 300.
 
 Then, the person's scaled SAIs are retrieved and all averaged together to produce an OAI. For now, my program uses that OAI instead of a scaled OAI to produce an OP score. This is also wrong, but I haven't finished the program and haven't added that step yet. That OAI is then checked against all the OPs and the one it falls into is printed to the screen.
+
+# Sources
+
+Although some are included in the directory, here are the original links. There are some others but I cant find them.
+
+https://www.qcaa.qld.edu.au/publications/statistics
+
+https://www.qcaa.qld.edu.au/downloads/publications/qcaa_stats_yr12_outcomes_15_all_schools.csv
+https://www.qcaa.qld.edu.au/downloads/publications/qcaa_stats_subj_part.csv
+https://www.qcaa.qld.edu.au/downloads/publications/qcaa_stats_opfp_band_boundaries.csv
+https://www.qcaa.qld.edu.au/downloads/p_10/qcaa_stats_grade_cut_scores.csv
+https://www.qcaa.qld.edu.au/downloads/senior/te_op_basics.pdf
+https://www.qcaa.qld.edu.au/downloads/senior/te_op_fast_facts.pdf
+http://christianschools.org.au/attachments/article/81/te_op_fp_procedures_2012.pdf
