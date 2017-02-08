@@ -1,3 +1,6 @@
+# OP Estimation program, for those who get year 12 results from the QCAA
+# Made by Scott Howie 09/02/2017
+
 import statistics, random, csv, os
 
 def split_rank(s):
