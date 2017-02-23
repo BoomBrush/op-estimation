@@ -53,3 +53,7 @@ https://www.qcaa.qld.edu.au/downloads/p_10/qcaa_stats_grade_cut_scores.csv
 https://www.qcaa.qld.edu.au/downloads/senior/te_op_basics.pdf
 https://www.qcaa.qld.edu.au/downloads/senior/te_op_fast_facts.pdf
 http://christianschools.org.au/attachments/article/81/te_op_fp_procedures_2012.pdf
+
+# Contact
+
+If you want to talk to me about this, I welcome that and would love to. My email is boombrush(at)hotmail[dot]com.
