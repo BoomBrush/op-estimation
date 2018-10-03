@@ -56,4 +56,5 @@ http://christianschools.org.au/attachments/article/81/te_op_fp_procedures_2012.p
 
 # Contact
 
-If you want to talk to me about this, I welcome that and would love to. My email is boombrush(at)hotmail[dot]com.
+If you want to talk to me about this, I welcome that and would love to. My youtube channel is www.youtube.com/user/BoomBrush, just comment there on my most recent video.
+
